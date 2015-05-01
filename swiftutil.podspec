@@ -20,5 +20,6 @@ Pod::Spec.new do |s|
   s.source       = { :git => "http://github.com/yarec/swiftutil" }
   s.source_files  =  "swiftutil/Classes/*.{h,m,swift}"
   s.exclude_files = "swiftutil/Classes/Exclude"
+  s.frameworks    = 'UIKit'
 
 end
