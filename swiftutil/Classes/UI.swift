@@ -8,7 +8,7 @@
 
 import UIKit
 
-func translucentNVC(mvc: UIViewController) -> UINavigationController {
+public func translucentNVC(mvc: UIViewController) -> UINavigationController {
     let nvc = UINavigationController(rootViewController: mvc)
     nvc.navigationBar.setBackgroundImage(UIImage(), forBarMetrics: UIBarMetrics.Default)
     nvc.navigationBar.shadowImage = UIImage()
