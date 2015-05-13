@@ -14,37 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "73F7B2361AF350180073F7B7"
-               BuildableName = "swiftutil.app"
-               BlueprintName = "swiftutil"
-               ReferencedContainer = "container:swiftutil.xcodeproj">
-            </BuildableReference>
-         </BuildActionEntry>
-         <BuildActionEntry
-            buildForTesting = "YES"
-            buildForRunning = "YES"
-            buildForProfiling = "NO"
-            buildForArchiving = "NO"
-            buildForAnalyzing = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "73F7B24B1AF350180073F7B7"
-               BuildableName = "swiftutilTests.xctest"
-               BlueprintName = "swiftutilTests"
-               ReferencedContainer = "container:swiftutil.xcodeproj">
-            </BuildableReference>
-         </BuildActionEntry>
-         <BuildActionEntry
-            buildForTesting = "YES"
-            buildForRunning = "YES"
-            buildForProfiling = "NO"
-            buildForArchiving = "NO"
-            buildForAnalyzing = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "73A3AAA61B03427000F7CC45"
-               BuildableName = "SwiftUtilTests.xctest"
-               BlueprintName = "SwiftUtilTests"
+               BlueprintIdentifier = "73A3AA9C1B03426F00F7CC45"
+               BuildableName = "SwiftUtil.framework"
+               BlueprintName = "SwiftUtil"
                ReferencedContainer = "container:swiftutil.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -56,36 +28,7 @@
       shouldUseLaunchSchemeArgsEnv = "YES"
       buildConfiguration = "Debug">
       <Testables>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "73F7B24B1AF350180073F7B7"
-               BuildableName = "swiftutilTests.xctest"
-               BlueprintName = "swiftutilTests"
-               ReferencedContainer = "container:swiftutil.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "73A3AAA61B03427000F7CC45"
-               BuildableName = "SwiftUtilTests.xctest"
-               BlueprintName = "SwiftUtilTests"
-               ReferencedContainer = "container:swiftutil.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
       </Testables>
-      <MacroExpansion>
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "73F7B2361AF350180073F7B7"
-            BuildableName = "swiftutil.app"
-            BlueprintName = "swiftutil"
-            ReferencedContainer = "container:swiftutil.xcodeproj">
-         </BuildableReference>
-      </MacroExpansion>
    </TestAction>
    <LaunchAction
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
@@ -96,16 +39,15 @@
       ignoresPersistentStateOnLaunch = "NO"
       debugDocumentVersioning = "YES"
       allowLocationSimulation = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
+      <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "73F7B2361AF350180073F7B7"
-            BuildableName = "swiftutil.app"
-            BlueprintName = "swiftutil"
+            BlueprintIdentifier = "73A3AA9C1B03426F00F7CC45"
+            BuildableName = "SwiftUtil.framework"
+            BlueprintName = "SwiftUtil"
             ReferencedContainer = "container:swiftutil.xcodeproj">
          </BuildableReference>
-      </BuildableProductRunnable>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -115,16 +57,15 @@
       useCustomWorkingDirectory = "NO"
       buildConfiguration = "Release"
       debugDocumentVersioning = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
+      <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "73F7B2361AF350180073F7B7"
-            BuildableName = "swiftutil.app"
-            BlueprintName = "swiftutil"
+            BlueprintIdentifier = "73A3AA9C1B03426F00F7CC45"
+            BuildableName = "SwiftUtil.framework"
+            BlueprintName = "SwiftUtil"
             ReferencedContainer = "container:swiftutil.xcodeproj">
          </BuildableReference>
-      </BuildableProductRunnable>
+      </MacroExpansion>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">
